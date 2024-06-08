@@ -1,7 +1,15 @@
-# Facedetection_HaarCascade
+
 # Face Detection using openCV with HaarCascade 
 # Description
 This project demonstrates a simple face detection application using OpenCV and Python. It captures video from the webcam, detects faces in real-time, and draws rectangles around detected faces.
+# Screenshots
+![faceDetection](https://github.com/Syed-Basila/Facedetection_HaarCascade/assets/123718024/73c32c75-304f-4797-91b9-d998275c6bd2)
+
+# Demo Video
+You can view a demo of the face detection application here.
+
+https://github.com/Syed-Basila/Facedetection_HaarCascade/assets/123718024/a084a6ae-6f3b-467b-90e5-95f46c26f111
+
 
 # Features
 - Real-time face detection
@@ -12,20 +20,21 @@ This project demonstrates a simple face detection application using OpenCV and P
 - OpenCV
   
 Install required packages:
--- sh
+``` sh
 pip install opencv-python
+```
 # Download Haar Cascade file:
 Download the haarcascade_frontalface_default.xml file from OpenCV GitHub repository and place it in the project directory.
 
 # Usage
 Run the following command to start the face detection application:
 
---sh
-Copy code
+``` sh
+
 python face_detection.py
-Face Detection Script
-python
-Copy code
+```
+# Face Detection Script
+```sh
 import cv2 # openCV
 
 alg= "haarcascade_frontalface_default.xml" #accessed the model file
@@ -46,15 +55,10 @@ while True:
 
 cam.release()
 cv2.destroyAllWindows()
-Haar Cascades
+```
+# Haar Cascades
 Haar Cascades are a popular object detection method used in computer vision, developed by Paul Viola and Michael Jones. They are especially known for their use in real-time face detection. The technique involves training a cascade function with a large number of positive and negative images. The trained model can then detect objects in new images.
-
 In this project, we use the haarcascade_frontalface_default.xml file, which is pre-trained to detect faces.
 
-Screenshots
-
-Output Video
-You can view a demo of the face detection application here.
-
-Contributing
+# Contributing
 Contributions are welcome! Please create an issue to discuss any changes or improvements.
