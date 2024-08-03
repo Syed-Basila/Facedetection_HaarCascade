@@ -56,6 +56,8 @@ while True:
 cam.release()
 cv2.destroyAllWindows()
 ```
+# output
+ https://syed-basila.github.io/Facedetection_HaarCascade/
 # Haar Cascades
 Haar Cascades are a popular object detection method used in computer vision, developed by Paul Viola and Michael Jones. They are especially known for their use in real-time face detection. The technique involves training a cascade function with a large number of positive and negative images. The trained model can then detect objects in new images.
 In this project, we use the haarcascade_frontalface_default.xml file, which is pre-trained to detect faces.
